@@ -1,0 +1,47 @@
+Express Js it is
+
+All commands written within quotes ""
+This is going to be a node js backend which upon developing we will connect it with our react app(enotes)
+
+=> package.json created using - "npm init"
+
+=> install express server - "npm i express"
+
+=> intall mongoose - "npm i mongoose" - (it is an abstractionm layer on top of mongo db which helps us in connecting with node js application) - mongoose return promises.
+
+=> install  thunderclient vs code extension from extensions sections - it is a lightweight RestAPI client for vs code. Alternatively postman can also be used but we prefer thunderclient as it is within vs code only and switching between apps is not needed as in postman as it is a different app.
+
+=> "npm i -D nodemon" - add "start" : "nodemon index.js" in package.json under scripts.
+then run "npm start" in terminal
+
+there are two main folders - models (storing mongoose models) and routes
+Node.js, User.js etc model name start with capital letter.
+
+concept of schema
+
+database -> collection -> documents(.json)
+
+=>CRUD Operations (create, read, upload, delete)
+
+get,post,put,delete requests concept...
+use 127.0.0.1:27017 for connection with mongodb instead of localhost:27017.
+
+Authentication - 
+=> express validator - "npm install --save express-validator"
+
+mongodb atlas - it is mongodb on the cloud
+
+password hashing, salt nd pepper
+"npm i bcryptjs"
+
+whenever a user signs in we return them token. types of tokens - session token, json web token
+jwt authentication
+
+=>middleware
+
+logger
+sqs
+
+endpoints
+
+Notes - 
