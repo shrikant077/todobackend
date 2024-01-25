@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-const mongoURI = "mongodb://127.0.0.1:27017/enotes?readPreference=primary&appName=MongoDB+Compass&directConnection=true&tls=false";
+require("dotenv").config();
+const mongoURI = "mongodb+srv://enotescloud:h1jCaCvXg31eXpYI@cluster0.pdfy9ng.mongodb.net/?retryWrites=true&w=majority";
 
 const connectToMongo = () => {
     mongoose.connect(mongoURI).then(() => {
